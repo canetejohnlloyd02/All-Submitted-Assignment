@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #d5dfe1;
+}
+
+main {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+}
+
+h1 {
+    margin: 20px 0;
+}
+
+form {
+    margin-bottom: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+input {
+    display: block;
+    padding: 8px;
+    width: 200px;
+}
+
+#story {
+    font-size: 18px;
+    line-height: 1.5;
+}

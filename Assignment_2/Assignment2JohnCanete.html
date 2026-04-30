@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Choose Your Starter</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <h1>Choose Your Starter Pokémon</h1>
+
+  
+    <nav>
+        <button onclick="toggleDropdown()">Choose Pokémon</button>
+    </nav>
+
+    <div id="dropdownContent">
+        <p onclick="choosePokemon(0)">Bulbasaur</p>
+        <p onclick="choosePokemon(1)">Charmander</p>
+        <p onclick="choosePokemon(2)">Squirtle</p>
+        <p onclick="choosePokemon(3)">Pikachu</p>
+        <p onclick="choosePokemon(4)">Eevee</p>
+    </div>
+
+   
+    <div class="carousel">
+        <img id="pokeImage" src="https://img.pokemondb.net/sprites/black-white/normal/charmander.png">
+        <h2 id="pokeName">Bulbasaur</h2>
+        <p id="pokeText">Grass-type Pokémon: Calm and reliable.</p>
+
+        <button onclick="chooseStarter()">I Choose You!</button>
+
+    
+    </div>
+
+    <script src="js/index.js"></script>
+</body>
+</html>

@@ -1,0 +1,73 @@
+body {
+    font-family: Arial;
+    text-align: center;
+    background-color: #f2f2f2;
+}
+
+h1 {
+    font-family: 'Press Start 2P', cursive;
+    background-color: #ffcb05;
+    color: #2a75bb;
+    padding: 15px;
+    border-bottom: 5px solid #2a75bb;
+    font-size: 40px;
+}
+
+
+nav {
+    font-family: 'Press Start 2P', cursive;
+    background: #2a75bb;
+    padding: 10px;
+}
+
+nav button {
+    padding: 10px;
+    background-color: #ffcb05;
+    border: none;
+    cursor: pointer;
+}
+
+
+#dropdownContent {
+    font-family: 'Press Start 2P', cursive;
+    display: none;
+    background: #ffffff;
+    border: 2px solid #2a75bb;
+    padding: 10px;
+}
+
+.carousel {
+    font-family: 'Press Start 2P', cursive;
+    margin: 20px auto;
+    padding: 20px;
+    width: 450px;
+    background: white;
+    border: 5px solid #2a75bb;
+    border-radius: 10px;
+}
+
+
+#pokeImage {
+    width: 500px;
+    height: 500px;
+    object-fit: contain;
+}
+#pokeText {
+    width: 350px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+button {
+    font-family: 'Press Start 2P', cursive;
+    margin: 10px;
+    padding: 10px;
+    background-color: #ffcb05;
+    border: none;
+    cursor: pointer;
+}
+
+
+button:hover {
+    background-color: #f4b400;
+}
